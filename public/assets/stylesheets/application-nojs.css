@@ -1,0 +1,2 @@
+#directory-list { display: block; }
+#directory-list table tr:first-child { display: none; }

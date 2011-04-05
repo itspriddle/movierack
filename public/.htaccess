@@ -1,0 +1,17 @@
+# Tweak mod_autoindex
+HeaderName /header.php
+ReadmeName /footer.php
+AddType text/html .php
+AddHandler application/x-httpd-php .php
+IndexOptions FancyIndexing
+IndexOptions HTMLTable
+IndexOptions SuppressSize
+IndexOptions SuppressDescription
+IndexOptions SuppressColumnSorting
+IndexOptions SuppressIcon
+IndexOptions FoldersFirst
+IndexOptions SuppressHTMLPreamble
+IndexOptions SuppressLastModified
+IndexOptions SuppressRules
+IndexOptions NameWidth=*
+IndexIgnore .??* *~ *# *.php /assets
